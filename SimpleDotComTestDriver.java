@@ -9,7 +9,7 @@ public class SimpleDotComTestDriver {
     String result = simple.checkYourself("2");
     String testResult = "False";
 
-    if result.equals("hit") {
+    if (result.equals("hit")) {
       testResult = "True";
     }
 
